@@ -1,0 +1,16 @@
+:root {
+    --brand-color: #2196F3;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.navigation-item:focus {
+    color: var(--brand-color);
+}
