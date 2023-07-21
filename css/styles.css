@@ -14,3 +14,7 @@ ol {
 .navigation-item:focus {
     color: var(--brand-color);
 }
+
+span {
+    color: var(--brand-color);
+}
