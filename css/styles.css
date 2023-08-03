@@ -1,10 +1,10 @@
 :root {
-    --primary-font-family: "Raleway", sans-serif;
-    --secondary-font-family: "Roboto", sans-serif;
+    --primary-font-family: "Roboto", sans-serif;
+    --secondary-font-family: "Raleway", sans-serif;
     --brand-color: #2196F3;
     --text-color-logo: #000;
-    --text-color-nav: #212121;
-    --text-color-contacts: #757575;
+    --text-color-nav-title: #212121;
+    --text-color-description: #757575;
     --text-color-maintitle: #FFF;
 }
 
@@ -14,10 +14,6 @@
 
 .link {
     text-decoration: none;
-}
-
-.link:visited {
-    color: inherit
 }
 
 
@@ -31,7 +27,7 @@
 
 .logo {
     color: var(--text-color-logo);
-    font-family: var(--primary-font-family);
+    font-family: var(--secondary-font-family);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 26px;
     font-weight: 700;
@@ -43,6 +39,10 @@
     color: var(--brand-color);
 }
 
+.logo .footer {
+    color: var(--text-color-maintitle);
+}
+
 .logo:hover,
 .logo:focus {
     text-decoration: underline;
@@ -50,8 +50,8 @@
 }
 
 .nav-list-link {
-    color: var(--text-color-nav);
-    font-family: var(--secondary-font-family);
+    color: var(--text-color-nav-title);
+    font-family: var(--primary-font-family);
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
@@ -59,8 +59,8 @@
 }
 
 .contact-info {
-    color: var(--text-color-contacts);
-    font-family: var(--secondary-font-family);
+    color: var(--text-color-description);
+    font-family: var(--primary-font-family);
     font-size: 14px;
     font-weight: 500;
     line-height: 28px;
@@ -83,7 +83,7 @@
 .main-title,
 .modal-btn {
     color: var(--text-color-maintitle);
-    font-family: var(--secondary-font-family);
+    font-family: var(--primary-font-family);
 }
 
 .main-title {
@@ -101,9 +101,101 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 30px;
-    /* 187.5% */
     letter-spacing: 0.96px;
     border-radius: 4px;
     background: var(--brand-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+
+
+/*.modal-btn:hover,
+.modal-btn:focus {
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}*/
+
+
+/* ====== END HERO ========*/
+
+
+/* ====== START SECTION 2 Наш підхід ========*/
+
+.second-title {
+    display: none;
+}
+
+.third-title {
+    color: var(--text-color-nav-title);
+    font-family: var(--primary-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.description {
+    color: var(--text-color-description);
+    font-family: var(--primary-font-family);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+}
+
+
+/* ====== END SECTION 2 Наш підхід ========*/
+
+
+/* ====== START SECTION 3 AND 4 Чим ми займаємося & Наша команда ========*/
+
+.fourth-fifth-title {
+    color: var(--text-color-nav-title);
+    text-align: center;
+    font-family: var(--primary-font-family);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 1.08px;
+}
+
+.sixth-title {
+    color: var(--text-color-nav-title);
+    text-align: center;
+    font-family: var(--primary-font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+.description-two {
+    color: var(--text-color-description);
+    text-align: center;
+    font-family: var(--primary-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.48px;
+}
+
+
+/* ====== END SECTION 3 AND 4 Чим ми займаємося & Наша команда ========*/
+
+
+/* ====== START FOOTER ========*/
+
+.company-location {
+    /* color: var(--text-color-maintitle);*/
+    font-family: var(--primary-font-family);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+}
+
+
+/* ====== END  ========*/
