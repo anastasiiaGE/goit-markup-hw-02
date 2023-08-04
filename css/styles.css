@@ -6,7 +6,11 @@
     --text-color-nav-title: #212121;
     --text-color-description: #757575;
     --text-color-maintitle: #FFF;
+    --text-color-contacts: rgba(255, 255, 255, 0.60);
 }
+
+
+/* ====== START COMPONENTS ========*/
 
 .list {
     list-style: none;
@@ -15,9 +19,6 @@
 .link {
     text-decoration: none;
 }
-
-
-/* ====== START COMPONENTS ========*/
 
 
 /* ====== END COMPONENTS ========*/
@@ -78,7 +79,7 @@
 /* ====== END HEADER ========*/
 
 
-/* ====== START HERO ========*/
+/* ====== START HERO Studio ========*/
 
 .main-title,
 .modal-btn {
@@ -187,14 +188,24 @@
 
 /* ====== START FOOTER ========*/
 
-.company-location {
-    /* color: var(--text-color-maintitle);*/
+.contact-ways {
+    background: #2F303A;
+}
+
+.company-location,
+.email,
+.phone-number {
+    color: var(--text-color-contacts);
     font-family: var(--primary-font-family);
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.42px;
+}
+
+.company-location {
+    color: var(--text-color-maintitle);
 }
 
 
