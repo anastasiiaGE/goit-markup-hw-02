@@ -71,8 +71,7 @@
 .nav-list-link:hover,
 .nav-list-link:focus,
 .contact-info:hover,
-.contact-info:focus,
-{
+.contact-info:focus {
     color: var(--brand-color);
 }
 
