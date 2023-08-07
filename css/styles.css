@@ -71,7 +71,8 @@
 .nav-list-link:hover,
 .nav-list-link:focus,
 .contact-info:hover,
-.contact-info:focus {
+.contact-info:focus,
+{
     color: var(--brand-color);
 }
 
@@ -209,4 +210,20 @@
 }
 
 
-/* ====== END  ========*/
+/* ====== END FOOTER ========*/
+
+
+/* ====== END CSS Studio ========*/
+
+
+/* ====== START  SCC Portfolio ========*/
+
+.nav-btn {
+    color: var(--text-color-nav-title);
+    text-align: center;
+    font-family: var(--primary-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.48px;
+}
