@@ -224,4 +224,28 @@
     font-weight: 500;
     line-height: 26px;
     letter-spacing: 0.48px;
+    border-radius: 4px;
+}
+
+.nav-btn:hover {
+    background-color: var(--brand-color);
+    color: var(--text-color-maintitle);
+}
+
+.project-name {
+    color: var(--text-color-nav-title);
+    font-family: var(--primary-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1.08px;
+}
+
+.project-type {
+    color: var(--text-color-description);
+    font-family: var(--primary-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.48px;
 }
