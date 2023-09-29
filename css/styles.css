@@ -22,6 +22,7 @@
 
 body {
     font-family: var(--primary-font-family);
+    color: var(--text-color-description);
 }
 
 
@@ -111,11 +112,11 @@ body {
 
 
 /*.modal-btn:hover,
-.modal-btn:focus {
-    border-radius: 4px;
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}*/
+     .modal-btn:focus {
+         border-radius: 4px;
+         background: #2196F3;
+         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+     }*/
 
 
 /* ====== END HERO ========*/
@@ -123,7 +124,7 @@ body {
 
 /* ====== START SECTION 2 Наш підхід ========*/
 
-.second-title {
+.title-methods {
     display: none;
 }
 
@@ -136,8 +137,7 @@ body {
     text-transform: uppercase;
 }
 
-.description {
-    color: var(--text-color-description);
+.description-method {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -170,7 +170,6 @@ body {
 }
 
 .description-two {
-    color: var(--text-color-description);
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -239,7 +238,6 @@ body {
 }
 
 .project-type {
-    color: var(--text-color-description);
     font-family: var(--primary-font-family);
     font-size: 16px;
     font-weight: 400;
