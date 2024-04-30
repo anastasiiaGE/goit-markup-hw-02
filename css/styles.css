@@ -125,7 +125,7 @@ body {
     display: none;
 }
 
-.third-title {
+.title-approach {
     color: var(--text-color-nav-title);
     font-size: 14px;
     font-weight: 700;
@@ -147,7 +147,7 @@ body {
 
 /* ====== START SECTION 3 AND 4 Чим ми займаємося & Наша команда ========*/
 
-.fourth-fifth-title {
+.title-boxes {
     color: var(--text-color-nav-title);
     text-align: center;
     font-size: 36px;
@@ -156,7 +156,7 @@ body {
     letter-spacing: 1.08px;
 }
 
-.sixth-title {
+.title-employee {
     color: var(--text-color-nav-title);
     text-align: center;
     font-size: 16px;
@@ -166,7 +166,7 @@ body {
     letter-spacing: 0.48px;
 }
 
-.description-two {
+.employee-position {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -206,7 +206,7 @@ body {
 /* ====== END CSS Studio ========*/
 
 
-/* ====== START  SCC Portfolio ========*/
+/* ====== START  CSS Portfolio ========*/
 
 .nav-btn {
     color: var(--text-color-nav-title);
