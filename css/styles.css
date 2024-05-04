@@ -123,7 +123,7 @@ body {
 /* ====== START SECTION 2 Наш підхід ========*/
 
 .title-methods {
-    display: none;
+    visibility: hidden;
 }
 
 .title-approach {
