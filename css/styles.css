@@ -88,10 +88,10 @@ body {
 .main-title,
 .modal-btn {
     color: var(--text-color-maintitle);
+    text-align: center;
 }
 
 .main-title {
-    text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 44px;
     font-weight: 900;
@@ -101,7 +101,6 @@ body {
 }
 
 .modal-btn {
-    text-align: center;
     font-size: 16px;
     font-weight: 700;
     line-height: 30px;
@@ -148,9 +147,14 @@ body {
 
 /* ====== START SECTION 3 AND 4 Чим ми займаємося & Наша команда ========*/
 
-.title-boxes {
+.title-boxes,
+.title-employee,
+.employee-position {
     color: var(--text-color-nav-title);
     text-align: center;
+}
+
+.title-boxes {
     font-size: 36px;
     font-weight: 700;
     line-height: 42px;
@@ -158,8 +162,6 @@ body {
 }
 
 .title-employee {
-    color: var(--text-color-nav-title);
-    text-align: center;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -168,7 +170,6 @@ body {
 }
 
 .employee-position {
-    text-align: center;
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
