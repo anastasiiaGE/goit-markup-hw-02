@@ -73,10 +73,12 @@ body {
 }
 
 .nav-list-link:hover,
-.nav-list-link:focus,
 .contact-info:hover,
+.nav-list-link:focus,
 .contact-info:focus {
     color: var(--brand-color);
+    text-decoration: underline;
+    text-decoration-color: var(--brand-color);
 }
 
 
@@ -199,6 +201,17 @@ body {
 
 .company-location {
     color: var(--text-color-maintitle);
+}
+
+.company-location:hover,
+.company-location:focus,
+.email:hover,
+.email :focus,
+.phone-number:hover,
+.phone-number:focus {
+    color: var(--brand-color);
+    text-decoration: underline;
+    text-decoration-color: var(--brand-color);
 }
 
 
