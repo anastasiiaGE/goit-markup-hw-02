@@ -37,7 +37,8 @@ body {
     font-family: var(--secondary-font-family);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
+    /* light-height/font-size: 31px/26px */
     letter-spacing: 0.78px;
 }
 
@@ -60,7 +61,8 @@ body {
     color: var(--text-color-nav-title);
     font-size: 14px;
     font-weight: 500;
-    line-height: 16px;
+    /* light-height/font-size: 16px/14px */
+    line-height: 1.14;
     letter-spacing: 0.28px;
 }
 
@@ -68,7 +70,8 @@ body {
     color: var(--text-color-description);
     font-size: 14px;
     font-weight: 500;
-    line-height: 28px;
+    /* light-height/font-size: 28px/14px */
+    line-height: 2;
     letter-spacing: 0.28px;
 }
 
@@ -77,8 +80,6 @@ body {
 .nav-list-link:focus,
 .contact-info:focus {
     color: var(--brand-color);
-    text-decoration: underline;
-    text-decoration-color: var(--brand-color);
 }
 
 
@@ -97,15 +98,18 @@ body {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 44px;
     font-weight: 900;
-    line-height: 60px;
+    /* light-height/font-size: 60px/44px */
+    line-height: 1.36;
     letter-spacing: 2.64px;
     text-transform: uppercase;
 }
 
 .modal-btn {
+    cursor: pointer;
     font-size: 16px;
     font-weight: 700;
-    line-height: 30px;
+    /* light-height/font-size: 30px/16px */
+    line-height: 1.87;
     letter-spacing: 0.96px;
     border-radius: 4px;
     background: var(--brand-color);
@@ -131,15 +135,16 @@ body {
     color: var(--text-color-nav-title);
     font-size: 14px;
     font-weight: 700;
-    line-height: 16px;
+    /* light-height/font-size: 16px/14px */
+    line-height: 1.14;
     letter-spacing: 0.42px;
     text-transform: uppercase;
 }
 
 .description-method {
     font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
+    /* light-height/font-size: 24px/14px */
+    line-height: 1.7;
     letter-spacing: 0.42px;
 }
 
@@ -159,13 +164,13 @@ body {
 .title-boxes {
     font-size: 36px;
     font-weight: 700;
-    line-height: 42px;
+    /* light-height/font-size:42px/36px */
+    line-height: 1.17;
     letter-spacing: 1.08px;
 }
 
 .title-employee {
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.48px;
@@ -173,8 +178,8 @@ body {
 
 .employee-position {
     font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
+    /* light-height/font-size: 19px/16px */
+    line-height: 1.19;
     letter-spacing: 0.48px;
 }
 
@@ -210,8 +215,6 @@ body {
 .phone-number:hover,
 .phone-number:focus {
     color: var(--brand-color);
-    text-decoration: underline;
-    text-decoration-color: var(--brand-color);
 }
 
 
@@ -224,6 +227,7 @@ body {
 /* ====== START  CSS Portfolio ========*/
 
 .nav-btn {
+    cursor: pointer;
     color: var(--text-color-nav-title);
     text-align: center;
     font-family: var(--primary-font-family);
